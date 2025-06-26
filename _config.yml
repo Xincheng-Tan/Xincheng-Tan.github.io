@@ -22,7 +22,7 @@ repository               : "Xincheng-Tan/Xincheng-Tan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_.png"
+  avatar           : "../images/profile.png"
   name             : "Xincheng Tan"
   bio              : "Hi"
   location         : "Ningbo, Zhejiang"
