@@ -11,4 +11,4 @@ I'm an undergraduate student from [School of Software Technology](https://www.ct
 
 I was advised by [Prof. Minfeng Zhu](https://minfengzhu.github.io/) of [ZJUVAI Lab](https://zjuvai.cn/) from [School of Software Technology](https://www.cts.zju.edu.cn/), zhejiang University.
 
-[Email](xincheng.tan.sc@gmail.com) / [Github](https://github.com/Xincheng-Tan) / [Wechat](../images/wechat.jpg)
+[Email](xincheng.tan.sc@gmail.com) / [Github](https://github.com/Xincheng-Tan) / [Wechat](../images/Wechat.jpg)
