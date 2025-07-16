@@ -11,4 +11,4 @@ I'm an undergraduate student from [School of Software](http://www.cst.zju.edu.cn
 
 I was advised by [Prof. Zhu](https://minfengzhu.github.io/) of [Visual Analytics and Intelligence Group](https://zjuvai.cn/) of [Zhejiang University](https://www.zju.edu.cn/).
 
-[Email](mailto:xincheng.tan.sc@gmail.com) / [Github](https://github.com/Xincheng-Tan) / [Wechat](../images/Wechat.png)
+[Email](mailto:xincheng.tan@zju.edu.cn) / [Github](https://github.com/Xincheng-Tan) / [Wechat](../images/Wechat.png)
