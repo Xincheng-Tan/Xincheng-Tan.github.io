@@ -26,7 +26,7 @@ No local build is required — GitHub Pages builds the Jekyll site automatically
 | `_config.yml` | Site-wide settings (name, bio, email, links) |
 | `_pages/about.md` | Homepage content |
 | `_pages/publications.html` | Publications list page |
-| `_publications/` | One markdown file per publication (currently empty) |
+| `_publications/` | One markdown file per publication |
 | `_data/navigation.yml` | Header navigation links |
 | `images/profile.jpg` | Profile photo |
 | `files/` | PDFs and other downloadable files |
@@ -39,7 +39,7 @@ Create a file in `_publications/`, e.g. `_publications/2026-01-01-my-paper.md`:
 ---
 title: "Paper Title"
 collection: publications
-category: conferences        # conferences | manuscripts | books
+category: conferences        # conferences | manuscripts | books | preprints (under review)
 permalink: /publication/2026-01-01-my-paper
 excerpt: "One-sentence summary (optional)."
 date: 2026-01-01
