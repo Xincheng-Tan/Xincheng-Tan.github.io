@@ -39,16 +39,20 @@ Create a file in `_publications/`, e.g. `_publications/2026-01-01-my-paper.md`:
 ---
 title: "Paper Title"
 collection: publications
-category: conferences        # conferences | manuscripts | books | preprints (under review)
+category: conferences        # conferences | manuscripts | books | preprints
 permalink: /publication/2026-01-01-my-paper
 excerpt: "One-sentence summary (optional)."
 date: 2026-01-01
+authors: "<strong>Xincheng Tan</strong>, Coauthor Name<sup>†</sup>"
 venue: "NeurIPS 2026"
-paperurl: "https://arxiv.org/abs/xxxx.xxxxx"
+paperurl: "https://arxiv.org/abs/xxxx.xxxxx"   # shown as the arXiv button; the title links here
+links:                                           # extra buttons (optional)
+  - name: "Code"
+    url: "https://github.com/..."
 citation: "Xincheng Tan et al. (2026). Paper Title. NeurIPS 2026."
 ---
 
 Optional longer description here.
 ```
 
-It will appear automatically on the Publications page after pushing.
+It will appear automatically on the homepage and the Publications page after pushing (rendered by `_includes/publication-card.html`).

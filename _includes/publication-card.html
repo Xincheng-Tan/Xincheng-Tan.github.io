@@ -1,0 +1,23 @@
+{%- include base_path -%}
+<article class="publication" itemscope itemtype="http://schema.org/CreativeWork">
+  <h3 class="publication__title" itemprop="headline"><a href="{% if post.paperurl %}{{ post.paperurl }}{% else %}{{ base_path }}{{ post.url }}{% endif %}">{{ post.title }}</a></h3>
+  {%- if post.authors %}
+  <p class="publication__authors">{{ post.authors }}</p>
+  {%- endif %}
+  {%- if post.venue %}
+  <p class="publication__venue">{{ post.venue }}</p>
+  {%- endif %}
+  {%- if post.excerpt %}
+  <p class="publication__summary" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+  {%- endif %}
+  {%- if post.paperurl or post.links %}
+  <div class="publication__links">
+    {%- if post.paperurl %}
+    <a href="{{ post.paperurl }}">arXiv</a>
+    {%- endif %}
+    {%- for link in post.links %}
+    <a href="{{ link.url }}">{{ link.name }}</a>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+</article>
