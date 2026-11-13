@@ -24,7 +24,11 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Xincheng Tan"
-  bio              : "M.S. student @ Zhejiang University. LLM / VLM Agents, Agentic RL, Neuro-Symbolic Planning."
+  bio              : "M.S. student @ Zhejiang University"
+  interests        : # shown as tags under the bio
+    - "LLM / VLM Agents"
+    - "Agentic RL"
+    - "Neuro-Symbolic Planning"
   location         : "Hangzhou, China"
   employer         : "Zhejiang University"
   uri              : https://xincheng-tan.github.io/

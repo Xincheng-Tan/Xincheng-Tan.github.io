@@ -156,6 +156,31 @@
   }
 }
 
+// Research interests, shown as small tags under the bio
+.author__interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+
+  @include breakpoint($large) {
+    margin: -8px 0 20px;
+  }
+
+  li {
+    margin: 0;
+    padding: 0.2em 0.7em;
+    border-radius: 6px;
+    background: rgba(82, 173, 200, 0.14);
+    background: color-mix(in srgb, var(--global-link-color) 14%, transparent);
+    font-size: $type-size-7;
+    line-height: 1.5;
+    max-width: 100%; // a long tag wraps inside the narrow sidebar instead of spilling out
+  }
+}
+
 .author__urls-wrapper {
   position: relative;
   display: table-cell;
